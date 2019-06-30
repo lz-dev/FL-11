@@ -1,0 +1,442 @@
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        max-width: 1140px;
+        margin: 0 auto;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+    }
+    
+    header {
+        height: 95vh;
+        background-image: url(../img/sample2.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        position: relative;
+    }
+    
+    .nav_top {
+        display: flex;
+        align-items: center;
+        margin: 0 4rem;
+        font-size: 90%;
+    }
+    
+    .logo_text {
+        margin-top: 3rem;
+        margin-right: auto;
+        float: left;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .login_form {
+        margin-top: 4rem;
+    }
+    
+    .login_form a {
+        margin-left: 5rem;
+    }
+    
+    .heading_primary {
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    
+    .heading_primary_main {
+        font-size: 5rem;
+        letter-spacing: .5rem;
+        display: block;
+        text-transform: uppercase;
+        width: 100%;
+        white-space: nowrap;
+        margin-bottom: -2rem;
+    }
+    
+    .symb {
+        font-size: 200%;
+    }
+    
+    .heading_primary_sub {
+        font-size: 50%;
+    }
+    
+    .nav_container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 80%;
+        position: absolute;
+        bottom: 13%;
+        left: 13%;
+    }
+    
+    .nav_bot {
+        border: 2px solid #fff;
+        width: 25%;
+        line-height: 4rem;
+        font-size: 1.3rem;
+        white-space: nowrap;
+        text-align: center;
+        margin: 1rem 2rem;
+    }
+    
+    .clippy1 {
+        background-color: #000000;
+        color: #fff;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%);
+        height: 50vh;
+        max-width: 1140px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .clippy1 p {
+        float: right;
+        margin: 2rem 2rem;
+        width: 48%;
+    }
+    
+    .clippy2 {
+        background-color: #F3F3F3;
+        color: #000;
+        clip-path: polygon(0 100%, 100% 100%, 0 0);
+        height: 50vh;
+        width: 100%;
+        position: relative;
+        z-index: -2;
+    }
+    
+    .clippy2 p {
+        width: 45%;
+        position: absolute;
+        bottom: 20%;
+        left: 2%;
+        font-size: 130%;
+    }
+    
+    a,
+    h3 {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+    }
+    
+    a {
+        font-weight: 400;
+    }
+    
+    .nav_form>ul {
+        text-align: center;
+    }
+    
+    section.features {
+        background-color: #F3F3F3;
+    }
+    
+    p.features_main {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 200%;
+        background-color: #F3F3F3;
+        padding: 1rem 0 3rem 0;
+        margin-top: -4rem;
+    }
+    
+    p.lorem {
+        text-indent: 1rem;
+        text-align: center;
+        margin: 2rem 1rem;
+    }
+    
+    .icon5,
+    .icon6 {
+        position: absolute;
+        top: 5%;
+        right: 7%;
+        border: 2px solid #fff;
+        color: #fff;
+        width: auto;
+        padding: 1%;
+        font-size: 100%;
+    }
+    
+    .icon5 {
+        background-color: rgb(52, 32, 21, 0.6)
+    }
+    
+    .icon6 {
+        background-color: rgb(65, 109, 131, 0.6);
+    }
+    
+    p.place5,
+    p.place6 {
+        position: absolute;
+        color: #fff;
+        font-weight: 400;
+        float: left;
+        margin-left: 2rem;
+    }
+    
+    p.place5 {
+        bottom: 15%;
+    }
+    
+    p.place6 {
+        bottom: 10%;
+    }
+    
+    .features_demo1,
+    .features_demo2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .features_first,
+    .features_second {
+        flex: 41%;
+        margin: 1rem 2rem;
+        text-align: center;
+        position: relative;
+    }
+    
+    .features_first {
+        float: left;
+    }
+    
+    .sample_Spain,
+    .sample_France {
+        flex: 50%;
+        margin: 1rem 2rem;
+    }
+    
+    img.sample1,
+    img.sample2 {
+        width: 100%;
+    }
+    
+    .flex_card {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    section.section_countries,
+    footer {
+        background-color: #fff;
+    }
+    
+    .tours_type_Greece,
+    .tours_type_Italy,
+    .tours_type_USA,
+    .tours_type_Germany {
+        height: 55vh;
+        background-size: cover;
+        background-position: left;
+        width: 20%;
+        float: left;
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .tours_type_Greece,
+    .tours_type_Italy,
+    .tours_type_USA {
+        margin-right: 3rem;
+    }
+    
+    .tours_type_Greece {
+        background-image: url(../img/news-list-1.jpg);
+        opacity: 0.9;
+    }
+    
+    .tours_type_Italy {
+        background-image: url(../img/news-list-2.jpg);
+        opacity: 0.9;
+    }
+    
+    .tours_type_USA {
+        background-image: url(../img/news-list-3.jpg);
+        opacity: 0.9;
+    }
+    
+    .tours_type_Germany {
+        background-image: url(../img/news-list-4.jpg);
+        opacity: 0.9;
+    }
+    
+    button.more_info {
+        background-color: rgba(9, 119, 115, 0.7);
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        width: 80%;
+        height: 2.3rem;
+        color: #fff;
+        font-weight: 700;
+        font-size: 100%;
+        cursor: pointer;
+    }
+    
+    p.place {
+        position: absolute;
+        bottom: 5%;
+        color: #fff;
+        font-weight: 400;
+        float: left;
+        margin-left: 2rem;
+    }
+    
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4 {
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        border: 2px solid #fff;
+        color: #fff;
+        width: auto;
+        padding: 2%;
+        font-size: 110%;
+    }
+    
+    .icon1 {
+        background-color: rgba(1, 37, 95, 0.6);
+    }
+    
+    .icon2 {
+        background-color: rgba(70, 86, 110, 0.6);
+    }
+    
+    .icon3 {
+        background-color: rgba(98, 101, 102, 0.6);
+    }
+    
+    .icon4 {
+        background-color: rgba(1, 37, 95, 0.6);
+    }
+    
+    .load {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 2rem 3rem 2rem;
+        z-index: 5;
+    }
+    
+    section.section_countries {
+        margin-bottom: 3rem;
+    }
+    
+    button.btn_load {
+        background-color: #097774;
+        position: relative;
+        width: 28rem;
+        height: 5rem;
+        border: none;
+        color: #fff;
+        font-size: 100%;
+        cursor: pointer;
+    }
+    
+    .subscribe {
+        margin: 0 .5rem;
+        background-color: #F3F3F3;
+        padding: 2rem 2rem;
+        height: 30rem;
+    }
+    
+    .sub_right {
+        float: right;
+        margin-top: 1rem;
+        font-size: 150%;
+        font-weight: 400;
+        color: #000;
+        padding-top: 1rem;
+    }
+    
+    .attem {
+        font-weight: 600;
+    }
+    
+    input {
+        height: 4rem;
+        border: 1px solid #000;
+        margin-left: 1rem;
+    }
+    
+    button.subscribe_you {
+        background-color: #097774;
+        position: relative;
+        width: 8rem;
+        height: 4rem;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 65%;
+    }
+    
+     ::placeholder {
+        padding-left: 1rem;
+        padding-top: 2px;
+        color: #000;
+    }
+    
+    button.subscribe_you,
+    input {
+        align-items: center;
+    }
+    
+    footer.footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: o auto;
+        color: #9E9E9E;
+        padding: 2rem 0 2rem 2rem;
+        background-color: #fff;
+    }
+    
+    .epam {
+        flex: 30%;
+        white-space: nowrap;
+    }
+    
+    .footer_right {
+        flex: 30%;
+        float: right;
+        color: #000;
+        text-align: right;
+        padding-right: 0;
+        white-space: nowrap;
+    }
+    
+    a.black {
+        color: #000;
+        margin-right: 1.5rem;
+    }
+    
+    .sub_right {
+        padding-bottom: 2rem;
+    }
