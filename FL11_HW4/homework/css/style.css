@@ -412,7 +412,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: o auto;
+        margin: 0 auto;
         color: #9E9E9E;
         padding: 2rem 0 2rem 2rem;
         background-color: #fff;
