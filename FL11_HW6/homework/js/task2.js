@@ -1,6 +1,6 @@
-let A = parseInt(prompt('Enter length of side A :', ''));
-let B = parseInt(prompt('Enter length of side B :', ''));
-let C = parseInt(prompt('Enter length of side C :', ''));
+let A = parseFloat(prompt('Enter length of side A :', ''));
+let B = parseFloat(prompt('Enter length of side B :', ''));
+let C = parseFloat(prompt('Enter length of side C :', ''));
 
 if (isNaN(A) || isNaN(B) || isNaN(C)) {
     console.log('Incorrect input !')

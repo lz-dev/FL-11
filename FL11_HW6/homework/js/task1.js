@@ -1,9 +1,9 @@
-let ax = parseInt(prompt('Enter X of point A:', ''));
-let ay = parseInt(prompt('Enter Y of point A:', ''));
-let bx = parseInt(prompt('Enter X of point B:', ''));
-let by = parseInt(prompt('Enter Y of point B:', ''));
-let cx = parseInt(prompt('Enter X of point C:', ''));
-let cy = parseInt(prompt('Enter Y of point C:', ''));
+let ax = parseFloat(prompt('Enter X of point A:', ''));
+let ay = parseFloat(prompt('Enter Y of point A:', ''));
+let bx = parseFloat(prompt('Enter X of point B:', ''));
+let by = parseFloat(prompt('Enter Y of point B:', ''));
+let cx = parseFloat(prompt('Enter X of point C:', ''));
+let cy = parseFloat(prompt('Enter Y of point C:', ''));
 
 if (isNaN(ax) || isNaN(ay) || isNaN(bx) || isNaN(by) || isNaN(cx) || isNaN(cy)) {
     console.log('Incorrect input')
