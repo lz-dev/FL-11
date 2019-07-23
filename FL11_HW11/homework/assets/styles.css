@@ -1,0 +1,83 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    #root {
+                        margin: 3rem 10rem;
+                    }
+                    
+                    body {
+                        color: #00B4FA;
+                        font-size: 1rem;
+                        margin: 2rem;
+                    }
+                    
+                    i.material-icons {
+                        color: #7FC3F1;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        margin-bottom: 1rem;
+                    }
+                    
+                    hr {
+                        border: 3px solid #E2F1FD;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                    }
+                    
+                    input#newActionText {
+                        margin-top: 2rem;
+                        width: 90%;
+                        height: 3rem;
+                        border: 1px solid #C6D0D7;
+                    }
+                    
+                     ::placeholder {
+                        padding-left: 2rem;
+                        font-size: 1rem;
+                    }
+                    
+                    i.material-icons.plus {
+                        font-size: 3rem;
+                        color: #C6D0D7;
+                        background-color: #fff;
+                    }
+                    
+                    button {
+                        display: inline;
+                        vertical-align: middle;
+                        border: none;
+                        background-color: #fff;
+                        margin-top: .5rem;
+                    }
+                    
+                    input[type=checkbox]:checked:after {
+                        content: "✓";
+                        font-size: 12px;
+                    }
+                    
+                    form.check {
+                        vertical-align: middle;
+                    }
+                    
+                    i.material-icons.create {
+                        font-size: 2rem;
+                        vertical-align: middle;
+                    }
+                    
+                    button.deleteButton {
+                        float: right;
+                    }
+                    
+                    label.actionLabel {
+                        border: none;
+                        background-color: #fff;
+                        color: #00B4FA;
+                        font-size: 1.2rem;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                    }
